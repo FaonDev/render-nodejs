@@ -1,5 +1,7 @@
 services:
   # A Node.js (ESM) example
-  - name: nodejs-example
-    runtime: docker
+  - buildCommand: yarn
+    name: nodejs-example
+    runtime: node
+    startCommand: yarn start
     type: web
