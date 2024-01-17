@@ -1,0 +1,10 @@
+{
+  "description": "A Node.js (ESM) example",
+  "main": "index.js",
+  "name": "nodejs-example",
+  "scripts": {
+    "start": "node ."
+  },
+  "private": true,
+  "type": "module"
+}
